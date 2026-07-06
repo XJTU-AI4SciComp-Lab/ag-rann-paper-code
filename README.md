@@ -10,7 +10,6 @@ scripts for reproducing the main figures and tables in the paper.
 
 - **Title:** Adaptive-Growth Randomized Neural Networks: Algorithms, Theory, and PDE Applications
 - **Authors:** Haoning Dang, Fei Wang, Song Jiang
-- **Status:** under review (manuscript dated 2026-05-24)
 - **DOI / arXiv:** arXiv:2408.17225v3
 - **Corresponding author:** Fei Wang, `feiwang.xjtu@xjtu.edu.cn`
 - **Code maintainer:** Haoning Dang, `haoningdang.xjtu@stu.xjtu.edu.cn`
