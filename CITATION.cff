@@ -1,10 +1,32 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite the corresponding paper."
-title: "Paper Code Template"
+title: "AG-RaNN paper code"
+type: software
+version: 1.0.0
+date-released: 2026-07-05
+license: BSD-3-Clause
+repository-code: "https://github.com/XJTU-AI4SciComp-Lab/ag-rann-paper-code"
 authors:
+  - family-names: Dang
+    given-names: Haoning
+    email: "haoningdang.xjtu@stu.xjtu.edu.cn"
+    affiliation: "School of Mathematics and Statistics, Xi'an Jiaotong University"
   - family-names: Wang
     given-names: Fei
-    affiliation: "School of Mathematics and Statistics, Xi'an Jiaotong University"
-repository-code: "https://github.com/XJTU-AI4SciComp-Lab/rann-paper-code-template"
-license: "BSD-3-Clause"
-date-released: "2026-07-03"
+    email: "feiwang.xjtu@xjtu.edu.cn"
+    affiliation: "School of Mathematics and Statistics & State Key Laboratory of Multiphase Flow in Power Engineering, Xi'an Jiaotong University"
+  - family-names: Jiang
+    given-names: Song
+    email: "jiang@iapcm.ac.cn"
+    affiliation: "Institute of Applied Physics and Computational Mathematics"
+preferred-citation:
+  type: article
+  title: "Adaptive-Growth Randomized Neural Networks: Algorithms, Theory, and PDE Applications"
+  year: 2026
+  authors:
+    - family-names: Dang
+      given-names: Haoning
+    - family-names: Wang
+      given-names: Fei
+    - family-names: Jiang
+      given-names: Song

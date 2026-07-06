@@ -1,50 +1,30 @@
-# Python cache
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-.pytest_cache/
-.mypy_cache/
-.ipynb_checkpoints/
+# MATLAB
+*.asv
+*.autosave
+*.m~
+slprj/
+codegen/
+*.mex*
 
-# Virtual environments
-.venv/
-venv/
-env/
-ENV/
-
-# Build files
-build/
-dist/
-*.egg-info/
-
-# OS files
+# Operating systems and editors
 .DS_Store
 Thumbs.db
-
-# IDE files
-.vscode/
 .idea/
+.vscode/
 
-# Logs
-*.log
+# Generated outputs
+figures/generated/*
+!figures/generated/README.md
+results/*
+!results/README.md
+!results/reference/
+!results/reference/**
+
+# Large generated MATLAB data
+*.mat
+!data/allen_cahn/AC_cosine.mat
+!results/reference/*.mat
 
 # Temporary files
 tmp/
-temp/
-
-# Large generated outputs
-results/*.npy
-results/*.npz
-results/*.mat
-results/*.h5
-results/*.hdf5
-results/*.pkl
-
-# Large data files
-data/*.npy
-data/*.npz
-data/*.mat
-data/*.h5
-data/*.hdf5
-data/*.pkl
+*.log
